@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3889301761721298769}
   - component: {fileID: 5767392587579103547}
-  - component: {fileID: 2865875869083175205}
+  - component: {fileID: 3803627067223101545}
   m_Layer: 0
   m_Name: Mover
   m_TagString: Untagged
@@ -61,7 +61,7 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 3
---- !u!114 &2865875869083175205
+--- !u!114 &3803627067223101545
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -70,9 +70,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1133389077533167252}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52b4e735c67259741a00fff6e50276ad, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ef6a3afba4a94c1a86f5d5ec66fc47f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Study3D.MiniGolf.KinematicShuttle
+  m_EditorClassIdentifier: Assembly-CSharp::Study3D.MiniGolf.KinematicShutter
   offset: {x: 1.6, y: 0, z: 0}
   cycleTime: 3
 --- !u!1 &2607525508662663517

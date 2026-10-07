@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8431906107277047467}
   - component: {fileID: 1102822147835175154}
-  - component: {fileID: 5789745440232439491}
+  - component: {fileID: 2714029604288962308}
   m_Layer: 0
   m_Name: Trigger
   m_TagString: Untagged
@@ -54,7 +54,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.4, y: 0.5, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5789745440232439491
+--- !u!114 &2714029604288962308
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -63,11 +63,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6372318686000593069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcaefe08d5ad6e4c9f7816f70d39fd2, type: 3}
+  m_Script: {fileID: 11500000, guid: c3b57ff266619475482be0655f955cb7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Study3D.MiniGolf.BoostPad
-  direction: {x: 0, y: 0, z: 1}
-  acceleration: 20
+  m_EditorClassIdentifier: Assembly-CSharp::BoostPad
 --- !u!1 &7803893918335501880
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,8 +199,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8707915523546049517}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc4ee1d4bc4713b42bfa81dac51df2fc, type: 3}
+  m_Script: {fileID: 11500000, guid: 12da247363cb63843ba6f39510b819e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Study3D.Common.TextureOffsetScroller
   speed: {x: 0, y: -1.5}
-  textureProperty: _BaseMap

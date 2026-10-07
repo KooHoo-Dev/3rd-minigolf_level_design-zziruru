@@ -45,6 +45,7 @@ namespace Study3D.MiniGolf
                 {
                     float power = Mathf.Lerp(minPower, maxPower, power01);
                     ball.Shoot(aimDirection, power);
+                    if (GolfGameManager.Instance != null) GolfGameManager.Instance.AddStroke();
                     chargeTime = 0.0f;
                     power01 = 0.0f;
                 }
